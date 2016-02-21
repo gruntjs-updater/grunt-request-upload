@@ -14,16 +14,18 @@
 	"bugs": {
 		"url": "https://github.com/xzf158/grunt-request-upload/issues"
 	},
-	"licenses": [{
-		"type": "MIT",
-		"url": "https://github.com/xzf158/grunt-request-upload/blob/master/LICENSE-MIT"
-	}],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/xzf158/grunt-request-upload/blob/master/LICENSE-MIT"
+		}
+	],
 	"main": "Gruntfile.js",
 	"engines": {
 		"node": ">= 0.8.0"
 	},
 	"scripts": {
-		"test": "grunt test"
+		"start": "node lemon-server.js"
 	},
 	"devDependencies": {
 		"grunt-contrib-jshint": "~0.6.0",
@@ -31,7 +33,7 @@
 		"grunt": "~0.4.1"
 	},
 	"peerDependencies": {
-		"grunt": "~0.4.1"
+		"grunt": ">=0.4.0"
 	},
 	"keywords": [
 		"gruntplugin",
@@ -45,8 +47,5 @@
 	"dependencies": {
 		"progress": "^1.1.8",
 		"request": "^2.65.0"
-	},
-	"scripts": {
-		"start": "node lemon-server.js"
 	}
 }
